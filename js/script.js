@@ -3,34 +3,77 @@
 
 const gattini = [
     {
-        nome:"",
-        eta:"",
-        colore:"",
-        sesso:""
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
     },
     {
-        nome:"",
-        eta:"",
-        colore:"",
-        sesso:""
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
     },
     {
-        nome:"",
-        eta:"",
-        colore:"",
-        sesso:""
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
     },
     {
-        nome:"",
-        eta:"",
-        colore:"",
-        sesso:""
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
     },
     {
-        nome:"",
-        eta:"",
-        colore:"",
-        sesso:""
-    }
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
+    {
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
+    {
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
+    {
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
+    {
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
+    {
+        nome:"Alfredo",
+        eta:"2",
+        colore:"Blu",
+        sesso:"F"
+    },
 ];
 
+gattini.forEach(e => {
+    document.getElementById("text").innerHTML += 
+    `
+        <li>
+            ${e.nome}
+            <ul>
+                <li>
+                Colore: ${e.colore}
+                </li>
+            <ul>
+        </li>
+    `;
+});
